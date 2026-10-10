@@ -6,5 +6,6 @@ Registers: t0 = a, t1 = b, t2 = larger. a0 and a7 are used for the ecalls (print
 
 Logic: bge t0, t1, use_a jumps when a >= b. Otherwise the code falls through and picks b.
 
-Harder than expected: Working out which way the branch should jump, since bge skips ahead to the a case. 
+Harder than expected: Working out which way the branch should jump, since bge skips ahead to the a case.
+
 
