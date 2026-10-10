@@ -7,7 +7,7 @@ int main()
     int b = 42;
     int larger;
 
-    if (a > b) {
+    if (a >= b) {
         larger = a;
     } else {
         larger = b;
