@@ -8,4 +8,5 @@ Logic: while the numbers differ, subtract the smaller from the larger. When they
 
 Limit: both inputs must be positive, otherwise the loop never ends.
 
-Harder than expected: 
+Harder than expected: Choosing registers so the procedure only touches a0 and a1 and loops until they are equal. 
+

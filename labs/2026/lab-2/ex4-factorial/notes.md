@@ -6,4 +6,5 @@ Registers: a0 = argument, then return value. s0 (in main) holds the result acros
 
 Stack: factorial uses s1, which is callee-saved, so it stores it on the stack at entry and restores it before returning. It calls nothing, so it does not save ra.
 
-Harder than expected: 
+Harder than expected: Keeping track of the stack: saving s1 on entry and restoring it before returning. 
+
